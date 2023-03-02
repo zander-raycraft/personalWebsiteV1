@@ -1,0 +1,602 @@
+/*Code for making the backgrund image*/
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.background {
+    background-image: url('https://images.pling.com/img/00/00/62/69/92/1720998/cool-website-background-011.jpg');
+    background-size: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    z-index: -1;
+    animation: slide 30s linear infinite;
+}
+/*Making the movment for the background image */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-20%);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+/*Styling the navbar*/
+nav ul {
+    background-image: linear-gradient(to right, black,rgba(0,0,0,0)); 
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 75px;  
+    display: flex;  
+    z-index: 999;
+    align-items: center; 
+    box-shadow: 0 0 50px 0 rgb(8, 217, 232);  
+}
+nav li {
+    display: inline-block;
+    margin: 0 60px;
+}
+nav li a#index-about {
+    position: absolute;
+    font-size: 25px;
+    top: 18%;
+    left: 15%;
+    text-align: center;
+    font-weight: light;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: white;
+}
+nav li a#index-hobbies {
+    position: absolute;
+    font-size: 25px;
+    top: 18%;
+    left: 35%;
+    text-align: center;
+    font-weight: light;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: white;
+}
+nav li a#index-projects {
+    position: absolute;
+    font-size: 25px;
+    top: 18%;
+    left: 55%;
+    text-align: center;
+    font-weight: light;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: white;
+}
+nav li a#index-contact {
+    position: absolute;
+    font-size: 25px;
+    top: 18%;
+    left: 75%;
+    text-align: center;
+    font-weight: light;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+    border: 2px solid rgb(2, 70, 99);
+    background-color: rgb(2, 70, 99);
+    box-shadow: 0 0 50px 0 rgb(8, 217, 232);  
+}
+nav img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}
+.paragraph-wrapper {
+    position: fixed;
+    top: 130px;
+    left: 38%;
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 0 0 50px 0 rgb(8, 217, 232);
+}
+.image-container {
+    position: absolute;
+
+    background-color: rgb(1, 42, 49);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 0 0 50px 0 rgb(8, 217, 232);
+}
+.image-container::-webkit-scrollbar {
+    display: none;
+}
+.image-container img#backgroundImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 50px 0 rgb(8, 217, 232);
+    z-index: 0;
+}
+.paragraph-text {
+    position: absolute;
+    overflow-wrap: break-word; 
+    top: 10%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.paragraph-text p#firstParagraph {
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: monaco, monospace;
+}
+.paragraph-text p#secondParagraph {
+    top: 42%;
+    font-size: 18px;
+    position: absolute;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-family: monaco, monospace;
+}
+.paragraph-text h1#divider-paragraph {
+    font-size: 50px;
+    position: absolute;
+    color: rgb(8, 217, 232);
+    font-weight: lighter;
+    top: 22%;
+    left: 47%;
+}
+.paragraph-text img#progImage {
+    position: absolute;
+    top: 98%;
+    left: 16%;
+    width: 20%;
+    height: 30%;
+}
+.paragraph-text img#workoutImage {
+    position: absolute;
+    top: 98%;
+    left: 65%;
+    width: 20%;
+    height: 30%;
+}
+.paragraph-text img#volunteerImage {
+    position: absolute;
+    top: 170%;
+    left: 16%;
+    width: 20%;
+    height: 30%;
+}
+.paragraph-text img#readingImage {
+    position: absolute;
+    top: 170%;
+    left: 65%;
+    width: 20%;
+    height: 30%;
+}
+.paragraph-text img#vuImage {
+    position: absolute;
+    width: 25%;
+    height: 30%;
+    top: 255%;
+    left: 4%;
+    border-radius: 20px;
+}
+.paragraph-text img#houseImage {
+    position: absolute;
+    width: 25%;
+    height: 30%;
+    top: 285%;
+    left: 73%;
+}
+.paragraph-text img#paperIcon {
+    position: absolute;
+    width: 25%;
+    height: 30%;
+    top: 310%;
+    left: 2%;
+}
+.paragraph-text img#imageEnd {
+    position: absolute;
+    color: black;
+    width: 25%;
+    height: 30%;
+    top: 415%;
+    left: 40%;
+}
+.progTextContainer {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 125%;
+    
+}
+.progTextContainer p {
+    color: white;
+    font-size: 18px;
+    font-family: monaco, monospace;
+    padding: 10px;
+    text-align: center;
+    font-weight: lighter;
+    border-right: 2px rgb(8, 217, 232) dotted;
+}
+.workTextContainer {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 125%;
+    left: 51%;
+}
+.workTextContainer p {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    font-family: monaco, monospace;
+    font-weight: lighter;
+}
+.volTextContainer {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 202%;
+}
+.volTextContainer p {
+    color: white;
+    font-size: 18px;
+    font-family: monaco, monospace;
+    font-weight: lighter;
+    padding: 10px;
+    text-align: center;
+    border-right: 2px rgb(8, 217, 232) dotted;
+}
+.readTextContainer {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 202%;
+    left: 50%;
+}
+.readTextContainer p {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    font-family: monaco, monospace;
+    font-weight: lighter;
+}
+.researchText {
+    position: absolute;
+    top: 250%;
+    left: 30%;
+}
+.researchText p {
+    color: white;
+    font-size: 18px;
+    padding-right: 10px;
+    font-family: monaco, monospace;
+    font-weight: lighter;
+}
+.houseText {
+    position: absolute;
+    top: 285%;
+    left: 2%;
+}
+.houseText p {
+    color: white;
+    font-size: 18px;
+    font-family: monaco, monospace;
+    font-weight: lighter;
+    width: 70%;
+}
+.paperText {
+    position: absolute;
+    top: 310%;
+    left: 25%;
+}
+.paperText p {
+    color: white;
+    font-size: 18px;
+    font-family: monaco, monospace;
+    font-weight: lighter;
+}
+.about-me {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    color: rgb(8, 217, 232);
+    font-family: monaco, monospace;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-left: 10px;
+    background-image: linear-gradient(to right, black,rgba(0,0,0,0));
+    background-clip: border-box;
+    border-width: 100%;
+    top: -5%;
+}
+.hobbies {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    color: rgb(8, 217, 232);
+    font-family: monaco, monospace;
+    font-size: 40px;
+    font-weight: lighter;
+    background-image: linear-gradient(to right, black,rgba(0,0,0,0));
+    background-clip: border-box;
+    border-width: 100%;
+    top: 80%;
+}
+.projects {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    color: rgb(8, 217, 232);
+    font-family: monaco, monospace;
+    font-size: 40px;
+    font-weight: lighter;
+    background-image: linear-gradient(to right, black,rgba(0,0,0,0));
+    background-clip: border-box;
+    border-width: 100%;
+    top: 235%;
+}
+.contact-me {
+    position: absolute;
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    color: rgb(8, 217, 232);
+    font-family: monaco, monospace;
+    font-size: 40px;
+    font-weight: lighter;
+    background-image: linear-gradient(to right, black,rgba(0,0,0,0));
+    background-clip: border-box;
+    border-width: 100%;
+    top: 340%;
+}
+.phone-number {
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    font-family: monaco, monospace;
+    font-weight: lighter;
+    color: white;
+    top: 355%;
+    left: 5%;
+}
+.email {
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    font-family: monaco, monospace;
+    font-weight: lighter;
+    color: white;
+    top: 362%;
+    left: 5%;
+}
+.email span {
+    text-decoration: underline;
+}
+.phone-number span {
+    text-decoration: underline;
+}
+.contact-me span {
+    color: white;
+}
+.about-me span {
+    color: white
+}
+.image-wrapper {
+    position: fixed;
+    width: 300px;
+    height: 450px;
+    top: 120px;
+    left: 90px;
+}
+.image-wrapper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.image-wrapper img#firstChild {
+    position: absolute;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    top: 2%;
+    left: 3%;
+    z-index: 2;
+}
+.image-wrapper img#secondChild {
+    position: absolute;
+    border-radius: 20px;
+    z-index: 1;
+    height: 100%;
+}
+
+.image-alter {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 55%;
+}
+.image-alter img {
+    position: relative;
+    width: 100.25%;
+    height: 80%;
+    left: 2.95%;
+    z-index: 10;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-clip-path: polygon(0 0, 50% 30%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 50% 30%, 100% 0, 100% 100%, 0 100%);
+}
+.downloadImage {
+    position: absolute;
+    width: 8%;
+    height: 5%;
+    top: 95%;
+    left: 65%;
+}
+.downloadImage img#downloadImage {
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+.my-gitHub {
+    position: relative;
+    top: 85%;
+    left: 5%;
+    width: 25%;
+    height: 8%;
+    z-index: 100;
+}
+.my-linkedIn {
+    position: relative;
+    top: 93%;
+    left: 30%;
+    width: 13%;
+    height: 8%;
+    z-index: 100;
+}
+.input-text {
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    z-index: 99;
+}
+.input-text h1 {
+    position: absolute;
+    color: rgb(8, 217, 232);
+    font-size: 25px;
+    font-family: monaco, monospace;
+    font-weight: lighter;
+    z-index: 99;
+}
+.input-text h1 span {
+    color: white;
+}
+.logo-sender {
+    position: fixed;
+    z-index: 99;
+}
+.my-image {
+    position: fixed;
+    top: 72%;
+    left: 10%;
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+}
+.student-text {
+    position: absolute;
+    overflow: hidden;
+    text-decoration: none;;
+
+    /* making the location */
+    font-size: 18px;
+    font-weight: lighter;
+    color:rgb(8, 217, 232);
+    font-family: monaco, monospace;
+    top: 76%;
+    left: 40%;
+    z-index: 100;
+
+    display: inline-block;
+    overflow: hidden;
+    border-right: 0.1em solid black;
+    white-space: nowrap;
+    animation: typing 2s steps(30, end), blink-caret 1.25s step-end infinite;
+    
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+.download-link {
+    position: absolute;
+    font-family: monaco, monospace;
+    font-size: 15px;
+    color: rgb(8, 217, 232);
+    top: 96.5%;
+    left: 75%;
+    width: 150px;
+    font-weight: lighter;
+    height: 50px;
+    text-decoration: none;
+    z-index: 100;
+}
+.download-link:hover {
+    color: white;
+}
+/*Making the navbar-image with text over it*/
+.navbar-image {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 5%;
+
+}
+.navbar-image img {
+    position: absolute;
+    width: 100%
+}
+h1 {
+    float: right;
+    color: rgb(8, 217, 232);
+    font-size: 16px;
+}
+p {
+    color: blue;
+    font-size: 16px;
+}

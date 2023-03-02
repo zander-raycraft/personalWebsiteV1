@@ -1,0 +1,429 @@
+@media only screen and (max-width: 768px) {
+    /*Styling the navbar*/
+    nav ul {
+        background-color: rgb(2, 70, 99);
+        position: fixed;
+        top: 84%;
+        left: 11%;
+        height: 5%;
+        width: 70%;
+        display: flex;
+        z-index: 999;
+        align-items: center;
+        border-radius: 20px;
+    }
+    nav li {
+        display: inline-block;
+        margin: 0 60px;
+    }
+    nav li a#index-about {
+        position: absolute;
+        font-size: 12px;
+        top: 9%;
+        left: 6%;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-radius: 50px;
+        padding: 10px 15px;
+        color: white;
+    }
+    nav li a#index-hobbies {
+        position: absolute;
+        font-size: 12px;
+        top: 9%;
+        left: 30%;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-radius: 50px;
+        padding: 10px 15px;
+        color: white;
+    }
+    nav li a#index-projects {
+        position: absolute;
+        font-size: 12px;
+        top: 9%;
+        left: 53%;
+        text-align: center;
+        font-weight: light;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-radius: 50px;
+        padding: 10px 15px;
+        color: white;
+    }
+    nav li a#index-contact {
+        position: absolute;
+        font-size: 12px;
+        top: 9%;
+        left: 73%;
+        text-align: center;
+        font-weight: light;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-decoration: none;
+        border-radius: 50px;
+        padding: 10px 15px;
+    }
+    nav a:hover {
+        text-decoration: underline;
+        color: black;
+        border: 2px solid rgb(2, 70, 99);
+        background-color: rgb(2, 70, 99);
+        box-shadow: 0 0 50px 0 rgb(8, 217, 232);  
+    }
+
+    /*Beginning the Styling of the text container*/
+    .paragraph-wrapper {
+        position: fixed;
+        top: 35%;
+        left: 16%;
+        width: 70%;
+        height: 50%;
+        border-radius: 20px;
+        box-shadow: 0 0 50px 0 rgb(8 217 232);
+    }
+    /*beginning the styling of the personal image container*/
+    .image-wrapper {
+        position: fixed;
+        width: 50%;
+        height: 30%;
+        top: 3%;
+        left: 25%;
+    }
+    .input-text {
+        position: absolute;
+        top: 65%;
+        left: 63%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        text-align: center;
+        z-index: 99;
+    }
+    .input-text h1 {
+        position: absolute;
+        color: rgb(8, 217, 232);
+        font-size: 18px;
+        font-family: monaco, monospace;
+        font-weight: lighter;
+        z-index: 99;
+    }
+    .student-text {
+        position: absolute;
+        overflow: hidden;
+        text-decoration: none;;
+    
+        /* making the location */
+        font-size: 13px;
+        font-weight: lighter;
+        color:rgb(8, 217, 232);
+        font-family: monaco, monospace;
+        top: 77%;
+        left: 38%;
+        z-index: 100;
+    
+        display: inline-block;
+        overflow: hidden;
+        border-right: 0.1em solid black;
+        white-space: nowrap;
+        animation: typing 2s steps(30, end), blink-caret 1.25s step-end infinite;
+        
+    }
+    .download-link {
+        position: absolute;
+        font-family: monaco, monospace;
+        font-size: 15px;
+        color: rgb(8, 217, 232);
+        top: 96.5%;
+        left: 75%;
+        width: 150px;
+        height: 50px;
+        text-decoration: none;
+        z-index: 100;
+    }
+    .download-link {
+        position: absolute;
+        font-family: monaco, monospace;
+        font-size: 13px;
+        color: rgb(8, 217, 232);
+        top: 96.5%;
+        left: 75%;
+        width: 150px;
+        font-weight: lighter;
+        height: 50px;
+        text-decoration: none;
+        z-index: 100;
+    }
+    /*altering the text within the images*/
+    .paragraph-text p#firstParagraph {
+        color: white;
+        position: absolute;
+        padding: 10px;
+        font-size: 14px;
+        top: -6%;
+        font-weight: lighter;
+        text-align: center;
+        font-family: monaco, monospace;
+    }
+    .paragraph-text p#secondParagraph {
+        top: 33%;
+        font-size: 14px;
+        position: absolute;
+        padding: 10px;
+        color: white;
+        font-weight: lighter;
+        text-align: center;
+        font-family: monaco, monospace;  
+    }
+    .paragraph-text h1#divider-paragraph {
+        font-size: 50px;
+        position: absolute;
+        color: rgb(8, 217, 232);
+        font-weight: lighter;
+        top: 18%;
+        left: 43%;
+    }
+    .paragraph-text img#progImage {
+        position: absolute;
+        top: 94%;
+        left: 15%;
+        width: 16%;
+        height: 18%;
+    }
+    .paragraph-text img#workoutImage {
+        position: absolute;
+        top: 90%;
+        left: 65%;
+        width: 19%;
+        height: 25%;
+    }
+    .paragraph-text img#volunteerImage {
+        position: absolute;
+        top: 161%;
+        left: 16%;
+        width: 20%;
+        height: 20%;
+    }
+    .paragraph-text img#readingImage {
+        position: absolute;
+        top: 165%;
+        left: 65%;
+        width: 20%;
+        height: 15%;
+    }
+    .paragraph-text img#vuImage {
+        position: absolute;
+        width: 22%;
+        height: 15%;
+        top: 244%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    .paragraph-text img#houseImage {
+        position: absolute;
+        width: 25%;
+        height: 18%;
+        top: 273%;
+        left: 71%;
+    }
+    .paragraph-text img#paperIcon {
+        position: absolute;
+        width: 25%;
+        height: 17%;
+        top: 302%;
+        left: 4%;
+    }
+    .paragraph-text img#imageEnd {
+        position: absolute;
+        color: black;
+        width: 25%;
+        height: 30%;
+        top: 402%;
+        left: 40%;
+    }
+    .progTextContainer {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        top: 125%;
+        
+    }
+    .progTextContainer p {
+        color: white;
+        position: absolute;
+        top: -13%;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        font-size: 12px;
+        font-family: monaco, monospace;
+        font-weight: lighter;
+        border-right: 2px rgb(8, 217, 232) dotted;
+    }
+    .workTextContainer {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        top: 125%;
+        left: 51%;
+    }
+    .workTextContainer p {
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        top: -13%;
+        padding-right: 10px;
+        font-family: monaco, monospace;
+        font-weight: lighter;
+    }
+    .volTextContainer {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        top: 202%;
+    }
+    .volTextContainer p {
+        color: white;
+        font-size: 12px;
+        position: relative;
+        top: -22%;
+        font-family: monaco, monospace;
+        font-weight: lighter;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-right: 2px rgb(8, 217, 232) dotted;
+    }
+    .readTextContainer {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        top: 202%;
+        left: 50%;
+    }
+    .readTextContainer p {
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        top: -22%;
+        font-family: monaco, monospace;
+        font-weight: lighter;
+    }
+    .researchText {
+        position: absolute;
+        top: 235%;
+        width: 200px;
+        left: 30%;
+    }
+    .researchText p {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        padding-right: 10px;
+        font-family: monaco, monospace;
+        font-weight: lighter;
+    }
+    .houseText {
+        position: absolute;
+        top: 270%;
+        left: 2%;
+    }
+    .houseText p {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        font-family: monaco, monospace;
+        font-weight: lighter;
+        width: 70%;
+    }
+    .paperText {
+        position: absolute;
+        top: 292%;
+        left: 25%;
+    }
+    .paperText p {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        padding: 10px;
+        font-family: monaco, monospace;
+        font-weight: lighter;
+    }
+    .about-me {
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        color: rgb(8, 217, 232);
+        font-family: monaco, monospace;
+        font-size: 30px;
+        font-weight: lighter;
+        padding-left: 10px;
+        background-image: linear-gradient(to right, black,rgba(0,0,0,0));
+        background-clip: border-box;
+        border-width: 100%;
+        top: -5%;
+    }
+    .hobbies {
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        padding-left: 10px;
+        color: rgb(8, 217, 232);
+        font-family: monaco, monospace;
+        font-size: 30px;
+        font-weight: lighter;
+        background-image: linear-gradient(to right, black,rgba(0,0,0,0));
+        background-clip: border-box;
+        border-width: 100%;
+        top: 80%;
+    }
+    .projects {
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        padding-left: 10px;
+        color: rgb(8, 217, 232);
+        font-family: monaco, monospace;
+        font-size: 30px;
+        font-weight: lighter;
+        background-image: linear-gradient(to right, black,rgba(0,0,0,0));
+        background-clip: border-box;
+        border-width: 100%;
+        top: 223%;
+    }
+    .contact-me {
+        position: absolute;
+        width: 100%;
+        padding-left: 10px;
+        height: 30px;
+        color: rgb(8, 217, 232);
+        font-family: monaco, monospace;
+        font-size: 30px;
+        font-weight: lighter;
+        background-image: linear-gradient(to right, black,rgba(0,0,0,0));
+        background-clip: border-box;
+        top: 330%;
+    }
+    .phone-number {
+        position: absolute;
+        width: 100%;
+        height: 25px;
+        font-size: 13px;
+        font-family: monaco, monospace;
+        font-weight: lighter;
+        color: white;
+        top: 342%;
+        left: 5%;
+    }
+    .email {
+        position: absolute;
+        width: 100%;
+        height: 25px;
+        font-size: 13px;
+        font-family: monaco, monospace;
+        font-weight: lighter;
+        color: white;
+        top: 348%;
+        left: 5%;
+    }
+}
