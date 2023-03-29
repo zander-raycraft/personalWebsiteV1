@@ -9,15 +9,17 @@
     z-index: -1;
 }
 .background {
-    background-image: url('https://images.pling.com/img/00/00/62/69/92/1720998/cool-website-background-011.jpg');
-    background-size: auto;
+    background-image: url(https://images.pling.com/img/00/00/62/69/92/1720998/cool-website-background-011.jpg);
+    background-size: cover;
+    background-position: center;
     position: fixed;
+    background-repeat: no-repeat;
     top: 0;
     left: 0;
-    width: 200%;
+    width: 500%;
     height: 100%;
     z-index: -1;
-    animation: slide 30s linear infinite;
+    animation: slide 70s linear infinite;
 }
 /*Making the movment for the background image */
 @keyframes slide {

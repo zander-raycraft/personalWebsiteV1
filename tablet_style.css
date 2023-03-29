@@ -1,0 +1,58 @@
+@media only screen and (min-width: 790px) and (max-width: 1070px) {
+    /* Your CSS rules go here */
+    .paragraph-wrapper {
+        position: fixed;
+        top: 47%;
+        left: 8%;
+        width: 85%;
+        height: 40%;
+        border-radius: 20px;
+        z-index: 1;
+        box-shadow: 0 0 50px 0 rgb(8 217 232);
+    }
+    .image-wrapper {
+        position: fixed;
+        width: 40%;
+        height: 35%;
+        top: 9%;
+        left: 28%;
+    }
+  }@media only screen and (min-width: 790px) and (max-width: 1070px) {
+    /* Your CSS rules go here */
+    .paragraph-wrapper {
+        position: fixed;
+        top: 47%;
+        left: 8%;
+        width: 85%;
+        height: 40%;
+        border-radius: 20px;
+        z-index: 1;
+        box-shadow: 0 0 50px 0 rgb(8 217 232);
+    }
+    .image-wrapper {
+        position: fixed;
+        width: 40%;
+        height: 35%;
+        top: 9%;
+        left: 28%;
+    }
+  }@media only screen and (min-width: 790px) and (max-width: 1070px) {
+    /* Your CSS rules go here */
+    .paragraph-wrapper {
+        position: fixed;
+        top: 47%;
+        left: 8%;
+        width: 85%;
+        height: 40%;
+        border-radius: 20px;
+        z-index: 1;
+        box-shadow: 0 0 50px 0 rgb(8 217 232);
+    }
+    .image-wrapper {
+        position: fixed;
+        width: 40%;
+        height: 35%;
+        top: 9%;
+        left: 28%;
+    }
+  }

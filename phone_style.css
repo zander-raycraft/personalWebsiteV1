@@ -87,15 +87,15 @@
     /*beginning the styling of the personal image container*/
     .image-wrapper {
         position: fixed;
-        width: 50%;
+        width: 33%;
         height: 30%;
         top: 3%;
-        left: 25%;
+        left: 32%;
     }
     .input-text {
         position: absolute;
         top: 65%;
-        left: 63%;
+        left: 60%;
         transform: translate(-50%, -50%);
         width: 80%;
         text-align: center;
@@ -103,8 +103,9 @@
     }
     .input-text h1 {
         position: absolute;
+        left: 1%;
         color: rgb(8, 217, 232);
-        font-size: 18px;
+        font-size: 75%;
         font-family: monaco, monospace;
         font-weight: lighter;
         z-index: 99;
@@ -112,17 +113,14 @@
     .student-text {
         position: absolute;
         overflow: hidden;
-        text-decoration: none;;
-    
-        /* making the location */
-        font-size: 13px;
+        text-decoration: none;
+        font-size: 75%;
         font-weight: lighter;
-        color:rgb(8, 217, 232);
+        color: rgb(8, 217, 232);
         font-family: monaco, monospace;
-        top: 77%;
-        left: 38%;
+        top: 74%;
+        left: 30%;
         z-index: 100;
-    
         display: inline-block;
         overflow: hidden;
         border-right: 0.1em solid black;
@@ -133,22 +131,10 @@
     .download-link {
         position: absolute;
         font-family: monaco, monospace;
-        font-size: 15px;
-        color: rgb(8, 217, 232);
-        top: 96.5%;
-        left: 75%;
-        width: 150px;
-        height: 50px;
-        text-decoration: none;
-        z-index: 100;
-    }
-    .download-link {
-        position: absolute;
-        font-family: monaco, monospace;
         font-size: 13px;
         color: rgb(8, 217, 232);
         top: 96.5%;
-        left: 75%;
+        left: 60%;
         width: 150px;
         font-weight: lighter;
         height: 50px;
@@ -160,15 +146,15 @@
         color: white;
         position: absolute;
         padding: 10px;
-        font-size: 14px;
+        font-size: 90%;
         top: -6%;
         font-weight: lighter;
         text-align: center;
         font-family: monaco, monospace;
     }
     .paragraph-text p#secondParagraph {
-        top: 33%;
-        font-size: 14px;
+        top: 36%;
+        font-size: 90%;
         position: absolute;
         padding: 10px;
         color: white;
@@ -181,33 +167,33 @@
         position: absolute;
         color: rgb(8, 217, 232);
         font-weight: lighter;
-        top: 18%;
+        top: 22%;
         left: 43%;
     }
     .paragraph-text img#progImage {
         position: absolute;
-        top: 94%;
+        top: 105%;
         left: 15%;
         width: 16%;
         height: 18%;
     }
     .paragraph-text img#workoutImage {
         position: absolute;
-        top: 90%;
+        top: 101%;
         left: 65%;
         width: 19%;
         height: 25%;
     }
     .paragraph-text img#volunteerImage {
         position: absolute;
-        top: 161%;
+        top: 188%;
         left: 16%;
         width: 20%;
         height: 20%;
     }
     .paragraph-text img#readingImage {
         position: absolute;
-        top: 165%;
+        top: 189%;
         left: 65%;
         width: 20%;
         height: 15%;
@@ -216,7 +202,7 @@
         position: absolute;
         width: 22%;
         height: 15%;
-        top: 244%;
+        top: 305%;
         left: 4%;
         border-radius: 20px;
     }
@@ -224,14 +210,14 @@
         position: absolute;
         width: 25%;
         height: 18%;
-        top: 273%;
+        top: 338%;
         left: 71%;
     }
     .paragraph-text img#paperIcon {
         position: absolute;
         width: 25%;
         height: 17%;
-        top: 302%;
+        top: 390%;
         left: 4%;
     }
     .paragraph-text img#imageEnd {
@@ -239,7 +225,7 @@
         color: black;
         width: 25%;
         height: 30%;
-        top: 402%;
+        top: 496%;
         left: 40%;
     }
     .progTextContainer {
@@ -252,11 +238,11 @@
     .progTextContainer p {
         color: white;
         position: absolute;
-        top: -13%;
+        top: -6%;
         padding-left: 10px;
         padding-right: 10px;
         text-align: center;
-        font-size: 12px;
+        font-size: 90%;
         font-family: monaco, monospace;
         font-weight: lighter;
         border-right: 2px rgb(8, 217, 232) dotted;
@@ -270,9 +256,9 @@
     }
     .workTextContainer p {
         color: white;
-        font-size: 12px;
+        font-size: 90%;
         position: absolute;
-        top: -13%;
+        top: -5%;
         padding-right: 10px;
         font-family: monaco, monospace;
         font-weight: lighter;
@@ -285,9 +271,9 @@
     }
     .volTextContainer p {
         color: white;
-        font-size: 12px;
+        font-size: 90%;
         position: relative;
-        top: -22%;
+        top: 5%;
         font-family: monaco, monospace;
         font-weight: lighter;
         padding-left: 10px;
@@ -303,21 +289,22 @@
     }
     .readTextContainer p {
         color: white;
-        font-size: 12px;
+        font-size: 90%;
         position: absolute;
-        top: -22%;
+        top: 5%;
         font-family: monaco, monospace;
         font-weight: lighter;
     }
     .researchText {
         position: absolute;
-        top: 235%;
-        width: 200px;
-        left: 30%;
+        top: 285%;
+        width: 79%;
+        padding: 10px;
+        left: 20%;
     }
     .researchText p {
         color: white;
-        font-size: 12px;
+        font-size: 90%;
         text-align: center;
         padding-right: 10px;
         font-family: monaco, monospace;
@@ -325,25 +312,26 @@
     }
     .houseText {
         position: absolute;
-        top: 270%;
-        left: 2%;
+        top: 336%;
+        left: -2%;
     }
     .houseText p {
         color: white;
-        font-size: 12px;
+        font-size: 90%;
         text-align: center;
+        padding: 10px;
         font-family: monaco, monospace;
         font-weight: lighter;
         width: 70%;
     }
     .paperText {
         position: absolute;
-        top: 292%;
+        top: 372%;
         left: 25%;
     }
     .paperText p {
         color: white;
-        font-size: 12px;
+        font-size: 90%;
         text-align: center;
         padding: 10px;
         font-family: monaco, monospace;
@@ -352,10 +340,10 @@
     .about-me {
         position: absolute;
         width: 100%;
-        height: 30px;
+        height: 8%;
         color: rgb(8, 217, 232);
         font-family: monaco, monospace;
-        font-size: 30px;
+        font-size: 170%;
         font-weight: lighter;
         padding-left: 10px;
         background-image: linear-gradient(to right, black,rgba(0,0,0,0));
@@ -366,43 +354,43 @@
     .hobbies {
         position: absolute;
         width: 100%;
-        height: 30px;
+        height: 8%;
         padding-left: 10px;
         color: rgb(8, 217, 232);
         font-family: monaco, monospace;
-        font-size: 30px;
+        font-size: 170%;
         font-weight: lighter;
         background-image: linear-gradient(to right, black,rgba(0,0,0,0));
         background-clip: border-box;
         border-width: 100%;
-        top: 80%;
+        top: 91%;
     }
     .projects {
         position: absolute;
         width: 100%;
-        height: 30px;
+        height: 8%;
         padding-left: 10px;
         color: rgb(8, 217, 232);
         font-family: monaco, monospace;
-        font-size: 30px;
+        font-size: 170%;
         font-weight: lighter;
         background-image: linear-gradient(to right, black,rgba(0,0,0,0));
         background-clip: border-box;
         border-width: 100%;
-        top: 223%;
+        top: 268%;
     }
     .contact-me {
         position: absolute;
         width: 100%;
         padding-left: 10px;
-        height: 30px;
+        height: 8%;
         color: rgb(8, 217, 232);
         font-family: monaco, monospace;
-        font-size: 30px;
+        font-size: 170%;
         font-weight: lighter;
         background-image: linear-gradient(to right, black,rgba(0,0,0,0));
         background-clip: border-box;
-        top: 330%;
+        top: 421%;
     }
     .phone-number {
         position: absolute;
@@ -412,7 +400,7 @@
         font-family: monaco, monospace;
         font-weight: lighter;
         color: white;
-        top: 342%;
+        top: 433%;
         left: 5%;
     }
     .email {
@@ -423,7 +411,14 @@
         font-family: monaco, monospace;
         font-weight: lighter;
         color: white;
-        top: 348%;
+        top: 438%;
         left: 5%;
+    }
+    .downloadImage {
+        position: absolute;
+        width: 8%;
+        height: 5%;
+        top: 95%;
+        left: 50%;
     }
 }
