@@ -1,3 +1,9 @@
+//Making pre-loader
+window.onload = function() {
+  var loadingScreen = document.getElementById("loading-screen");
+  loadingScreen.style.display = "none";
+}
+
 //Smooth Scrolling for the hobbies id
 document.addEventListener('DOMContentLoaded', function() {
     const hobbiesLink = document.querySelector('#index-hobbies');
