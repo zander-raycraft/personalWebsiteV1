@@ -164,7 +164,7 @@ nav img {
     font-family: monaco, monospace;
 }
 .paragraph-text p#secondParagraph {
-    top: 42%;
+    top: 55%;
     font-size: 18px;
     position: absolute;
     color: white;
@@ -177,33 +177,33 @@ nav img {
     position: absolute;
     color: rgb(8, 217, 232);
     font-weight: lighter;
-    top: 22%;
+    top: 30%;
     left: 47%;
 }
 .paragraph-text img#progImage {
     position: absolute;
-    top: 98%;
+    top: 130%;
     left: 16%;
     width: 20%;
     height: 30%;
 }
 .paragraph-text img#workoutImage {
     position: absolute;
-    top: 98%;
+    top: 130%;
     left: 65%;
     width: 20%;
     height: 30%;
 }
 .paragraph-text img#volunteerImage {
     position: absolute;
-    top: 170%;
+    top: 220%;
     left: 16%;
     width: 20%;
     height: 30%;
 }
 .paragraph-text img#readingImage {
     position: absolute;
-    top: 170%;
+    top: 220%;
     left: 65%;
     width: 20%;
     height: 30%;
@@ -212,7 +212,7 @@ nav img {
     position: absolute;
     width: 25%;
     height: 30%;
-    top: 255%;
+    top: 325%;
     left: 4%;
     border-radius: 20px;
 }
@@ -220,14 +220,14 @@ nav img {
     position: absolute;
     width: 25%;
     height: 30%;
-    top: 285%;
+    top: 365%;
     left: 73%;
 }
 .paragraph-text img#paperIcon {
     position: absolute;
     width: 25%;
     height: 30%;
-    top: 310%;
+    top: 420%;
     left: 2%;
 }
 .paragraph-text img#imageEnd {
@@ -235,14 +235,14 @@ nav img {
     color: black;
     width: 25%;
     height: 30%;
-    top: 415%;
+    top: 520%;
     left: 40%;
 }
 .progTextContainer {
     position: absolute;
     width: 50%;
     height: 100%;
-    top: 125%;
+    top: 155%;
     
 }
 .progTextContainer p {
@@ -258,7 +258,7 @@ nav img {
     position: absolute;
     width: 50%;
     height: 100%;
-    top: 125%;
+    top: 155%;
     left: 51%;
 }
 .workTextContainer p {
@@ -273,7 +273,7 @@ nav img {
     position: absolute;
     width: 50%;
     height: 100%;
-    top: 202%;
+    top: 250%;
 }
 .volTextContainer p {
     color: white;
@@ -288,7 +288,7 @@ nav img {
     position: absolute;
     width: 50%;
     height: 100%;
-    top: 202%;
+    top: 250%;
     left: 50%;
 }
 .readTextContainer p {
@@ -301,7 +301,7 @@ nav img {
 }
 .researchText {
     position: absolute;
-    top: 250%;
+    top: 320%;
     left: 30%;
 }
 .researchText p {
@@ -313,7 +313,7 @@ nav img {
 }
 .houseText {
     position: absolute;
-    top: 285%;
+    top: 370%;
     left: 2%;
 }
 .houseText p {
@@ -325,7 +325,7 @@ nav img {
 }
 .paperText {
     position: absolute;
-    top: 310%;
+    top: 410%;
     left: 25%;
 }
 .paperText p {
@@ -360,7 +360,7 @@ nav img {
     background-image: linear-gradient(to right, black,rgba(0,0,0,0));
     background-clip: border-box;
     border-width: 100%;
-    top: 80%;
+    top: 110%;
 }
 .projects {
     position: absolute;
@@ -374,7 +374,7 @@ nav img {
     background-image: linear-gradient(to right, black,rgba(0,0,0,0));
     background-clip: border-box;
     border-width: 100%;
-    top: 235%;
+    top: 305%;
 }
 .contact-me {
     position: absolute;
@@ -388,7 +388,7 @@ nav img {
     background-image: linear-gradient(to right, black,rgba(0,0,0,0));
     background-clip: border-box;
     border-width: 100%;
-    top: 340%;
+    top: 450%;
 }
 .phone-number {
     position: absolute;
@@ -398,7 +398,7 @@ nav img {
     font-family: monaco, monospace;
     font-weight: lighter;
     color: white;
-    top: 355%;
+    top: 465%;
     left: 5%;
 }
 .email {
@@ -409,7 +409,7 @@ nav img {
     font-family: monaco, monospace;
     font-weight: lighter;
     color: white;
-    top: 362%;
+    top: 470%;
     left: 5%;
 }
 .email span {
